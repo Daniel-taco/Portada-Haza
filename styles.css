@@ -9,46 +9,46 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca la imagen detrás del contenido */
-    opacity: 0.9; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; 
+    opacity: 0.9;
     filter: brightness(1.0);
 }
 
 .background-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    object-fit: cover; 
 }
 
 .image-container {
     text-align: center;
-    margin-top: 20px; /* Ajusta el espacio entre las imágenes y el borde superior */
+    margin-top: 20px;
 }
 
 .image-container img {
-    margin-bottom: 10px; /* Ajusta el espacio entre las imágenes */
+    margin-bottom: 10px; 
 }
 
 .content-container {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto; /* Centra el contenedor en la página */
+    margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.815); /* Fondo blanco con opacidad */
+    background-color: rgba(255, 255, 255, 0.815); 
     border: 3px solid #ccc;
     
 }
 
 .content-container h1 {
-    color: #333; /* Color del texto principal */
+    color: #333; 
 }
 
 .content-container .institution {
-    color: #555; /* Color del texto secundario */
+    color: #555; 
 }
 
 .content-container hr {
-    border: 1px solid #ccc; /* Línea divisoria gris */
+    border: 1px solid #ccc; 
     margin: 15px 0;
 }
 
